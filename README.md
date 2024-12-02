@@ -50,7 +50,7 @@ module enco_deco(din,a,b,c);
  assign a=(din[4]|din[5]|din[6]|din[7]);
  assign b=(din[2]|din[3]|din[6]|din[7]);
  assign c=(din[1]|din[3]|din[5]|din[7]);
- endmodule
+ endmodule 
 ```
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 ![WhatsApp Image 2024-12-02 at 22 10 01_2fd85f46](https://github.com/user-attachments/assets/a276a808-2d23-498c-8be0-fc14b54bea08)
