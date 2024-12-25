@@ -39,30 +39,28 @@ Figure 02  Encoder 8 * 3
 /* write all the steps invloved */
 
 **PROGRAM**
-```
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
 
-Developed by:kannan R RegisterNumber:24900979
- 
+/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
+```
 module enco_deco(din,a,b,c);
- input [0:7]din;
- output a,b,c;
- assign a=(din[4]|din[5]|din[6]|din[7]);
- assign b=(din[2]|din[3]|din[6]|din[7]);
- assign c=(din[1]|din[3]|din[5]|din[7]);
- endmodule 
+input [0:7]din;
+output a,b,c;
+assign a=(din[4]|din[5]|din[6]|din[7]);
+5assign b=(din[2]|din[3]|din[6]|din[7]);
+assign c=(din[1]|din[3]|din[5]|din[7]);
+endmodule
+Developed by:Savish R
+RegisterNumber:24900837
+*/
 ```
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
-![WhatsApp Image 2024-12-02 at 22 10 01_2fd85f46](https://github.com/user-attachments/assets/a276a808-2d23-498c-8be0-fc14b54bea08)
-
+![5](https://github.com/user-attachments/assets/b683cbed-a80e-4ec8-af8f-aa92634c809e)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
-![WhatsApp Image 2024-12-02 at 22 10 01_7d7202d9](https://github.com/user-attachments/assets/75ac3a99-a419-49db-a2cb-99b2b82308c3)
-
+![5wave](https://github.com/user-attachments/assets/191cfe0f-615f-4f4b-a0cf-6f3324d95c87)
 
 **RESULTS**
-thus experiment was successfully verifed.
-
+Thus the experiment succussfully verified.
 
 
 
